@@ -6,6 +6,7 @@
 
     <title>IT Start - Praktyki IT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
 </head>
 
 <body>
@@ -16,16 +17,19 @@
         <p>
             Praktyki zawodowe IT
         </p>
+<button id="menuButton" class="menu-button">☰ Menu</button>
 
-        <nav>
-            <a href="#o-praktykach">O praktykach</a>
-            <a href="#zadania">Zadania</a>
-            <a href="#cele">Cele praktyki</a>
-        </nav>
+<nav id="mainMenu">
+    <a href="#o-praktykach">O praktykach</a>
+    <a href="#zadania">Zadania</a>
+    <a href="#cele">Cele praktyki</a>
+   <a href="#o-praktykach">Galeria</a>
+</nav>
+
     </header>
 
     <main>
-
+    
         <section class="hero">
             <div>
                 <h2> droga IT</h2>
@@ -48,82 +52,65 @@
                 alt="Biuro firmy IT"
             >
         </section>
-
-
-        <section id="o-praktykach">
-
+       <section id="o-praktykach">
+    <div class="two-column">
+        <div>
             <h2>O praktykach</h2>
 
             <p>
                 Praktyki zawodowe w firmie IT pozwalają uczniowi
-                wykorzystać wiedzę zdobytą w szkole w rzeczywistych
-                sytuacjach.
+                wykorzystać wiedzę zdobytą w szkole w rzeczywistych sytuacjach.
             </p>
-
             <p>
                 Podczas praktyk można poznać zasady pracy zespołowej,
                 nauczyć się korzystania z narzędzi programistycznych
                 oraz zdobyć pierwsze doświadczenie zawodowe.
             </p>
+        </div>
+        <div class="gallery">
+    <img src="images/j1.png" alt="Praktyka 1">
+    <img src="images/j2.jpg" alt="Praktyka 2">
+    <img src="images/j3.jpg" alt="Praktyka 3">
+    <img src="images/j4.jpg" alt="Praktyka 4">
+    <img src="images/j5.webp" alt="Praktyka 5">
+    <img src="images/j6.webp" alt="Praktyka 6">
+</div>
+    </div>
+</section>
+<section id="zadania">
+    <h2>Zadania</h2>
 
-        </section>
+    <ul>
+        <li>Tworzenie stron internetowych</li>
+        <li>Programowanie w HTML, CSS i JavaScript</li>
+        <li>Testowanie aplikacji</li>
+        <li>Praca z Git i GitHub</li>
+        <li>Współpraca w zespole</li>
+    </ul>
+</section>
+<section id="cele">
+    <div class="two-column">
 
-
-        <section id="zadania">
-
-            <h2>Zadania podczas praktyk</h2>
-
-            <div class="cards">
-
-                <article>
-                    <h3>Tworzenie stron</h3>
-
-                    <p>
-                        Przygotowywanie stron internetowych
-                        z wykorzystaniem HTML i CSS.
-                    </p>
-                </article>
-
-
-                <article>
-                    <h3>Programowanie</h3>
-
-                    <p>
-                        Nauka podstaw JavaScript oraz tworzenie
-                        prostych funkcji interaktywnych.
-                    </p>
-                </article>
-
-
-                <article>
-                    <h3>Git i GitHub</h3>
-
-                    <p>
-                        Zapisywanie zmian w projekcie oraz
-                        korzystanie z repozytoriów GitHub.
-                    </p>
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <section id="cele">
-
+        <div class="cele-text">
             <h2>Cele praktyki</h2>
-
             <ul>
                 <li>Zdobycie doświadczenia zawodowego</li>
                 <li>Rozwijanie umiejętności programistycznych</li>
                 <li>Poznanie pracy w zespole</li>
-                <li>Nauka korzystania z Git i GitHub</li>
-                <li>Poznanie środowiska pracy w firmie IT</li>
+                <li>Nauka Git i GitHub</li>
+                <li>Praca z nowoczesnymi technologiami</li>
             </ul>
+        </div>
 
-        </section>
+        <div class="multimedia">
+            <h2>Multimedia</h2>
+            <video controls>
+                <source src="video/video.mp4" type="video/mp4">
+            </video>
+        </div>
 
-
+    </div>
+</section>
         <section>
 
             <h2>Przydatne informacje</h2>
